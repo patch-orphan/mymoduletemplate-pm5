@@ -1,0 +1,16 @@
+MyModuleTemplate Installation
+
+# install via cpanminus
+cpanm MyModuleTemplate
+
+# install via CPAN shell
+cpan MyModuleTemplate
+
+# install via ActivePerl
+ppm install MyModuleTemplate
+
+# install manually
+perl Build.PL
+./Build
+./Build test
+./Build install
