@@ -1,9 +1,9 @@
 package MyModuleTemplate;
 
 use v5.6;
+use utf8;
 use strict;
 use warnings;
-use utf8;
 
 our $VERSION = '0.00_1';
 
