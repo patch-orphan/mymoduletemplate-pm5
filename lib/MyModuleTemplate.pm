@@ -19,7 +19,7 @@ MyModuleTemplate - ...
 
 =head1 VERSION
 
-This document describes MyModuleTemplate version 0.00_1.
+This document describes MyModuleTemplate v0.00_1.
 
 =head1 SYNOPSIS
 
