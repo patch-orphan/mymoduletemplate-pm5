@@ -5,13 +5,13 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name    => 'MyModuleTemplate',
     license        => 'perl',
-    create_license => 1,
     create_readme  => 1,
     configure_requires => {
-        'Module::Build' => 0.36,
+        'Module::Build' => '0.36',
     },
     build_requires => {
-        'Test::More' => 0.41,  # diag()
+        'Pod::Man'   => '2.04',
+        'Test::More' => '0.82',
     },
     requires => {
         'perl'     => '5.6.0',
